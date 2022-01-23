@@ -66,7 +66,52 @@ body .about h2 {
   font-size: 30px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #001e2f;
-  padding-top: 4%;
+  padding: 40px 40px;
+}
+body .about p {
+  display: block;
+  margin: 0px auto;
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  line-height: 26px;
+  font-size: 15px;
+  padding-bottom: 40px;
+}
+body .technolgies {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding-bottom: 40px;
+}
+body .technolgies h3 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #001e2f;
+  padding: 40px 40px;
+}
+body .technolgies img {
+  width: 100px;
+}
+body .technolgies p {
+  font-family: "Poppins", sans-serif;
+}
+body .technolgies .container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0px auto;
+}
+body .technolgies .container .caja {
+  margin: 20px;
+}
+body .works {
+  text-align: center;
+}
+body .works h4 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #001e2f;
+  padding: 40px 40px;
 }
 
 /*# sourceMappingURL=styles.css.map */

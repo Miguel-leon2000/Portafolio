@@ -111,9 +111,9 @@ body{
             font-family: 'Poppins', sans-serif;
         }
 
-        .container{
+        .container__technolgies{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-around;
             flex-wrap: wrap;
             width: 80%;
             margin: 0px auto;
@@ -121,9 +121,7 @@ body{
             .caja{
                 margin: 20px;
             }
-
         }
-
     }
 
     .works{
@@ -134,6 +132,35 @@ body{
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             color: #001e2f;
             padding: 40px 40px;
+        }
+
+        img{
+            width: 350px;
+            height: 250px;
+            box-shadow: rgb(161, 161, 161) 8px 8px 8px 4px;
+        }
+
+        p{
+            font-family: 'Poppins', sans-serif;
+            margin-top: 17px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .container__works{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: 0px auto;
+            margin-bottom: 50px;
+
+            .caja{
+                margin: 15px;
+            }
         }
 
     }

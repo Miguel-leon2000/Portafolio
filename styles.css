@@ -94,14 +94,14 @@ body .technolgies img {
 body .technolgies p {
   font-family: "Poppins", sans-serif;
 }
-body .technolgies .container {
+body .technolgies .container__technolgies {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   width: 80%;
   margin: 0px auto;
 }
-body .technolgies .container .caja {
+body .technolgies .container__technolgies .caja {
   margin: 20px;
 }
 body .works {
@@ -112,6 +112,30 @@ body .works h4 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #001e2f;
   padding: 40px 40px;
+}
+body .works img {
+  width: 350px;
+  height: 250px;
+  box-shadow: #a1a1a1 8px 8px 8px 4px;
+}
+body .works p {
+  font-family: "Poppins", sans-serif;
+  margin-top: 17px;
+}
+body .works a {
+  text-decoration: none;
+  color: black;
+}
+body .works .container__works {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+body .works .container__works .caja {
+  margin: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */

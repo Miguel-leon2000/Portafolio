@@ -164,4 +164,31 @@ body{
         }
 
     }
+
+    footer{
+        background-color: #f0f0f0;
+        text-align: center;
+
+        h5{
+            font-size: 30px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #001e2f;
+            padding: 40px 10px;
+        }
+
+        p{
+            font-family: 'Poppins', sans-serif;
+        }
+
+        img{
+            width: 50px;
+            margin: 20px;
+            margin-bottom: 50px;
+        }
+
+        .cajas{
+            display: flex;
+            justify-content: center;
+        }
+    }
 }

@@ -137,5 +137,27 @@ body .works .container__works {
 body .works .container__works .caja {
   margin: 15px;
 }
+body footer {
+  background-color: #f0f0f0;
+  text-align: center;
+}
+body footer h5 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #001e2f;
+  padding: 40px 10px;
+}
+body footer p {
+  font-family: "Poppins", sans-serif;
+}
+body footer img {
+  width: 50px;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+body footer .cajas {
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=styles.css.map */

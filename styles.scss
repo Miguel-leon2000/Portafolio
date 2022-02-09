@@ -9,10 +9,10 @@ body{
         text-align: center;
         min-height: 100vh;
 
-        .caja_home{
+        .caja_home{ 
             position: relative;
             z-index: 2;
-            padding-top: 16%;
+            margin-top: 170px;           
 
             h1{
                 font-size: 60px;
@@ -75,7 +75,8 @@ body{
             font-size: 30px;
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             color: #001e2f;
-            padding: 40px 40px;
+            padding-bottom: 40px;
+            margin-top: -110px;
             
         }
 

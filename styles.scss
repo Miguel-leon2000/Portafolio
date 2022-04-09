@@ -32,9 +32,9 @@ body{
             button{
                 padding: 10px;
                 margin: 10px;
-                margin-top: 20px;
+                margin-top: 35px;
                 background: rgba(255, 255, 255, 0);
-                border: 3px solid rgb(88, 88, 88);
+                border: 3px solid rgb(255, 255, 255);
                 border-radius: 10px;
                 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 font-size: 17px;
@@ -42,6 +42,17 @@ body{
                 a{
                     text-decoration: none;
                     color: white;
+                }
+            }
+
+            button:hover{
+                border: 3px solid white;
+                background-color: white;
+
+                a{
+                    background-color: white;
+                    color: black;
+                    font-weight: bold;
                 }
             }
         }
